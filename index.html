@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiyaf's Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<style>
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 11px 10px;
+        background-color: black;
+        color: white;
+        padding: 2px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 0px;
+
+    }
+
+    .left img {
+        margin: 0px 30px;
+        width: 70px;
+        filter: invert(100%);
+
+    }
+
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0;
+        padding: 0;
+       background-color: black;
+        background-repeat: no-repeat;
+         background-size: 2000px 700px;
+
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        color: white;
+        position: absolute;
+        left: -7pxpx;
+        top: 0px;
+        margin: 20px;
+
+    }
+
+    .mid {
+        /* border: 2px solid yellow; */
+        color: white;
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        color: white;
+        position: absolute;
+        right: -10px;
+        top: 0px;
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 33px 23px
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .frm {
+        border: 2px solid rgb(71, 71, 71);
+        margin: 19px 265px;
+        padding: 31px 31px;
+        width: 40%;
+        color: white;
+        border-radius: 30px;
+
+    }
+
+    .group {
+        text-align: center;
+    }
+
+    .group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 2px solid grey;
+        text-align: center;
+        width: 428px;
+        padding: 2px 10px;
+        margin: 3px 16px;
+        border-radius: 13px;
+        line-height: 10px;
+        font-size: 20px;
+    }
+
+    .frm .btn {
+        display: block;
+        margin: 11px 187px;
+        width: 35%;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Pics/logo.jpg" alt="">
+            <div>SAIYAF GYM</div>
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="" class="active">Home </a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Fitness Calculator</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">Call now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="frm">
+        <h1>Join the best GYM of Abbottabad Now.</h1>
+        <form action="no.php">
+            <div class="group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter your Father name">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter your Contact Number">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
